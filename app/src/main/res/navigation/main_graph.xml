@@ -10,9 +10,7 @@
         android:name="com.mazter.horoscopo.ui.horoscopo.HoroscopeFragment"
         android:label="fragment_horoscope"
         tools:layout="@layout/fragment_horoscope" >
-        <action
-            android:id="@+id/action_horoscopeFragment_to_luckFragment"
-            app:destination="@id/luckFragment" />
+
     </fragment>
     <fragment
         android:id="@+id/luckFragment"
