@@ -10,6 +10,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.mazter.horoscopo.R
 import com.mazter.horoscopo.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
 /*
 Todo lo visual de android esta en esta capa de clean arquitecture
@@ -17,7 +18,7 @@ ui = interfaz de usuario
 Toda la logica esta en domain
 las peticiones http
 Data es donde va a salir la informacion */
-
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
